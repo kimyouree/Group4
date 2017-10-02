@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <title>EVO</title>
+
+    <style>
+        body { 
+            background-color: palegreen;
+            color: white; 
+        }
+
+        h1 { 
+            text-align: center;
+        }
+
+        .jumbotron { 
+            background-color: gray; 
+            margin-top: 30px;
+        }
+
+        </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+
+        <h1 class="banner"><i class="fa fa-camera-retro"></i>Welcome to the EVO label page</h1>
+        
+
+        </div>
+        <div class="row">
+         <div class="col-md-4 col-sm-12"><a href=""> <img src="https://www.altitudetickets.com/assets/img/rhcp-event-2016-e8a7ef263f.jpg" class="img-thumbnail">
+         </a></div>
+
+         <div class="col-md-4 col-sm-12"> <img src="http://www.aboveandbeyond.nu/europe/img/above-beyond.jpg" class="img-thumbnail">
+         </div>
+
+         <div class="col-md-4 col-sm-12"> <img src="http://images.vogue.it/imgs/galleries/vogue-black/the-black-blog/022766/schermata-2014-02-03-alle-10.30.06-1488781_0x440.jpg" class="img-thumbnail">
+         </div>
+
+
+
+        </div>
+        
+
+
+    </div>
+    
+
+
+
+    <!-- shift + option + f -->
+
+
+
+</body>
+
+</html>
