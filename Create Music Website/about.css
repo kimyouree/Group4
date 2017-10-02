@@ -1,0 +1,29 @@
+
+.abouttop{
+    text-align: center;
+    font-size: 2em;
+    background-color: rgba(26, 53, 100, 0);
+    margin: 10%;
+    margin-bottom: -5%;
+    margin-top: -1%;
+}
+.aboutbody p{
+    color: rgba(105, 94, 253, 0.96);
+    max-width: 100% ;
+}
+.aboutbody h1, .aboutbody h2{
+    color: #37DF99;
+}
+
+.aboutbox{
+    background-color: rgba(66, 66, 66, 0.3);
+    font-family: Helvetica;
+    font-size: 2em;
+    margin: 10%;
+    line-height: 200%;
+    
+  }
+
+.aboutbody{
+    background-image: url("img/about.jpg");
+}
