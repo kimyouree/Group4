@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(black, blue, black, blue);
+    display: inline-block;
+}
+
+img{
+    width:100%;
+    border: 2px solid white;
+
+}
+
+div{
+    margin-bottom: 15px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 6em;
+    background: -webkit-linear-gradient(#eee, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about{
+    width:90%;
+    margin-top: 35px;
+    font-size: 1.2em;
+}
+
+.aboutMe{
+    width:90%;
+    margin-top: 30px;
+    background: -webkit-linear-gradient(red, white, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2em;
+}
+
+.hockey{
+    margin: 0px 40px;
+    margin-bottom: 30px;
+}
+
+.interestList{
+    font-size: 1.2em;
+}
+
+.interest{
+    background: -webkit-linear-gradient(white, red, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 35px;
+}
