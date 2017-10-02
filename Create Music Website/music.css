@@ -1,0 +1,84 @@
+
+.topbox {
+    height: 50em;
+    width: 100%;
+    max-height: 50%;
+    max-width: 100%;
+    min-height: 20%;
+    min-width: 30%;
+    background-image: url("img/first.jpg");
+    background-size: cover;
+    text-align: center;
+    color: #072D4D;
+  }
+body{
+  background-color: #f2f5f9;
+}
+
+
+
+.navbar-inverse {
+  background: #2c3e50;
+  color: white;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.Center{
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.toppic{
+  position: relative;
+  top: 20%;
+  color: rgb(250, 251, 255);
+  font-family: 'Rouge Script', cursive;
+  font-size: 130px;
+  font-weight: normal;
+  
+  text-align: center;
+  text-shadow: 1px 1px 2px #010030;
+}
+
+.boxes a {
+  display: block;
+  position: inline;
+  margin: 5%;
+}
+
+
+
+
+
+@media screen and (max-width: 700px){
+  .toppic {
+      color: aquamarine ;
+      font-size: 0.25em;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .toppic {
+      color: lightskyblue ;
+      font-size: 0.2em;
+  }
+
+
+  .form button {
+    display: block;
+    position: inline;
+    margin: 5%;
+  }
+
+  .form{
+    text-align: center;
+  }
+
